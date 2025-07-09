@@ -756,3 +756,107 @@ Stack: Error: listen EADDRINUSE: address already in use :::3000
 2025-07-09 01:44:42 [INFO]: Phone hash index created successfully
 2025-07-09 01:44:42 [INFO]: Aegis Local Auth server started on port 3000
 2025-07-09 01:47:22 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-09 02:20:28 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 02:20:28 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:20:28 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 02:20:28 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:20:28 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 02:20:28 [INFO]: Users table initialized successfully
+2025-07-09 02:20:28 [INFO]: Database synchronization mode set to FULL
+2025-07-09 02:20:28 [INFO]: Phone hash index created successfully
+2025-07-09 02:20:28 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 02:20:55 [ERROR]: CORS blocked request from origin: http://localhost:5174
+2025-07-09 02:20:55 [ERROR]: Global error handler - Error: Not allowed by CORS
+2025-07-09 02:22:14 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-09 02:23:32 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 02:23:32 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:23:32 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 02:23:32 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:23:32 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 02:23:32 [INFO]: Users table initialized successfully
+2025-07-09 02:23:32 [INFO]: Database synchronization mode set to FULL
+2025-07-09 02:23:32 [INFO]: Phone hash index created successfully
+2025-07-09 02:23:32 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 02:23:42 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 02:23:42 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:23:42 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 02:23:42 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:23:42 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 02:23:42 [INFO]: Users table initialized successfully
+2025-07-09 02:23:42 [INFO]: Database synchronization mode set to FULL
+2025-07-09 02:23:42 [INFO]: Phone hash index created successfully
+2025-07-09 02:23:42 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 02:24:05 [INFO]: Registration attempt - Phone: $2b$12$Z..., IP: ::1
+2025-07-09 02:24:06 [INFO]: OTP generated for phone: $2b$12$Z...
+2025-07-09 02:24:06 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******6519
+2025-07-09 02:24:06 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-09 02:24:06 [INFO]: [SMS-API] Envoi d'un SMS à +2137994236519 via l'API principale
+2025-07-09 02:24:06 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-09 02:24:06 [INFO]: [OTPEngine] Le fournisseur principal a échoué. Tentative avec le(s) fournisseur(s) de secours.
+2025-07-09 02:24:06 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: gateway
+2025-07-09 02:24:06 [INFO]: [SMS-Gateway] Envoi d'un SMS à +2137994236519 via http://192.168.1.140:8090/send
+2025-07-09 02:24:16 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-09 02:24:16 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: modem
+2025-07-09 02:24:16 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-09 02:24:16 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******6519 après 10189ms
+2025-07-09 02:24:16 [INFO]: ✅ OTP sent via undefined.
+2025-07-09 02:24:39 [INFO]: Verification validation failed: [{"type":"field","value":"1111","msg":"OTP must be exactly 6 digits","path":"otp","location":"body"}]
+2025-07-09 02:24:40 [INFO]: Verification validation failed: [{"type":"field","value":"1111","msg":"OTP must be exactly 6 digits","path":"otp","location":"body"}]
+2025-07-09 02:24:59 [INFO]: Registration attempt - Phone: $2b$12$R..., IP: ::1
+2025-07-09 02:25:00 [INFO]: OTP generated for phone: $2b$12$R...
+2025-07-09 02:25:00 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******519
+2025-07-09 02:25:00 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-09 02:25:00 [INFO]: [SMS-API] Envoi d'un SMS à +213794236519 via l'API principale
+2025-07-09 02:25:00 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-09 02:25:00 [INFO]: [OTPEngine] Le fournisseur principal a échoué. Tentative avec le(s) fournisseur(s) de secours.
+2025-07-09 02:25:00 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: gateway
+2025-07-09 02:25:00 [INFO]: [SMS-Gateway] Envoi d'un SMS à +213794236519 via http://192.168.1.140:8090/send
+2025-07-09 02:25:10 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-09 02:25:10 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: modem
+2025-07-09 02:25:10 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-09 02:25:10 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 10129ms
+2025-07-09 02:25:10 [INFO]: ✅ OTP sent via undefined.
+2025-07-09 02:29:36 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 02:29:36 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:29:36 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 02:29:36 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:29:36 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 02:29:36 [INFO]: Users table initialized successfully
+2025-07-09 02:29:36 [INFO]: Database synchronization mode set to FULL
+2025-07-09 02:29:36 [INFO]: Phone hash index created successfully
+2025-07-09 02:29:36 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 02:30:20 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-09 02:31:11 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 02:31:11 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:31:11 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 02:31:11 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:31:11 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 02:31:11 [INFO]: Users table initialized successfully
+2025-07-09 02:31:11 [INFO]: Database synchronization mode set to FULL
+2025-07-09 02:31:11 [INFO]: Phone hash index created successfully
+2025-07-09 02:31:11 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 02:31:19 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 02:31:19 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:31:19 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 02:31:19 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 02:31:19 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 02:31:19 [INFO]: Users table initialized successfully
+2025-07-09 02:31:19 [INFO]: Database synchronization mode set to FULL
+2025-07-09 02:31:19 [INFO]: Phone hash index created successfully
+2025-07-09 02:31:19 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 02:31:53 [INFO]: Registration attempt - Phone: $2b$12$C..., IP: ::1
+2025-07-09 02:31:53 [INFO]: OTP generated for phone: $2b$12$C...
+2025-07-09 02:31:53 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******519
+2025-07-09 02:31:53 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-09 02:31:53 [INFO]: [SMS-API] Envoi d'un SMS à +213794236519 via l'API principale
+2025-07-09 02:31:53 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-09 02:31:53 [INFO]: [OTPEngine] Le fournisseur principal a échoué. Tentative avec le(s) fournisseur(s) de secours.
+2025-07-09 02:31:53 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: gateway
+2025-07-09 02:31:53 [INFO]: [SMS-Gateway] Envoi d'un SMS à +213794236519 via http://192.168.1.140:8090/send
+2025-07-09 02:32:03 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-09 02:32:03 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: modem
+2025-07-09 02:32:03 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-09 02:32:03 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 10218ms
+2025-07-09 02:32:03 [INFO]: [DEV MODE] Returning success for testing despite SMS failure
+2025-07-09 02:32:03 [INFO]: ✅ OTP sent via dev-mode.
+2025-07-09 02:33:01 [INFO]: Received SIGINT. Starting graceful shutdown...
