@@ -1,0 +1,75 @@
+/* =================================================================
+   AEGIS LOCAL AUTH - MODERN CSS STYLING
+   Enterprise-Grade Visual Design & Animations
+   ================================================================= */
+
+/* Essential CSS for the modern interface */
+.feedback {
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+
+.feedback.success {
+  background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+  border: 1px solid #10B981;
+  color: #047857;
+  display: block;
+}
+
+.feedback.error {
+  background: linear-gradient(135deg, #FEF2F2 0%, #FECACA 100%);
+  border: 1px solid #EF4444;
+  color: #991B1B;
+  display: block;
+}
+
+.feedback.info {
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+  border: 1px solid #3B82F6;
+  color: #1E40AF;
+  display: block;
+}
+
+.feedback.warning {
+  background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+  border: 1px solid #F59E0B;
+  color: #92400E;
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-content {
+  animation: fadeIn 0.5s ease;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

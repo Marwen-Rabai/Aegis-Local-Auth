@@ -1,0 +1,748 @@
+# Aegis Local Auth - Access Log
+# This file will contain general application logs and access information 2025-06-28 23:39:37 [INFO]: Initializing Aegis Local Auth database...
+2025-06-28 23:46:14 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:12:57 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:14:44 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:14:44 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:14:44 [INFO]: Users table initialized successfully
+2025-06-29 00:14:44 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:26:34 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-29 00:26:34 [INFO]: HTTP server closed
+2025-06-29 00:26:34 [INFO]: Database connection closed
+2025-06-29 00:37:57 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:37:57 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:37:57 [INFO]: Users table initialized successfully
+2025-06-29 00:37:57 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:38:00 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:38:00 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:38:00 [INFO]: Users table initialized successfully
+2025-06-29 00:38:00 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:38:26 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:38:26 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:38:26 [INFO]: Users table initialized successfully
+2025-06-29 00:38:26 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:39:01 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:39:01 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:39:01 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:39:01 [INFO]: Database file created successfully, size: 16384 bytes
+2025-06-29 00:39:01 [INFO]: Users table initialized successfully
+2025-06-29 00:39:01 [INFO]: Database synchronization mode set to FULL
+2025-06-29 00:39:02 [INFO]: Phone hash index created successfully
+2025-06-29 00:39:02 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:39:12 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:39:12 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:39:12 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:39:12 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 00:39:12 [INFO]: Users table initialized successfully
+2025-06-29 00:39:12 [INFO]: Database synchronization mode set to FULL
+2025-06-29 00:39:12 [INFO]: Phone hash index created successfully
+2025-06-29 00:39:12 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:117:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:117:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-29 00:39:12 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-06-29 00:39:12 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-06-29 00:39:12 [INFO]: HTTP server closed
+2025-06-29 00:48:40 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-29 00:56:12 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:56:12 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:56:12 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:56:12 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 00:56:12 [INFO]: Users table initialized successfully
+2025-06-29 00:56:12 [INFO]: Database synchronization mode set to FULL
+2025-06-29 00:56:12 [INFO]: Phone hash index created successfully
+2025-06-29 00:56:12 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:56:33 [INFO]: Registration attempt - Phone: $2b$12$9..., IP: ::1
+2025-06-29 00:56:33 [INFO]: OTP generated for phone: $2b$12$9...
+2025-06-29 00:56:34 [INFO]: Starting SMS send to +12*****890
+2025-06-29 00:56:34 [INFO]: Initializing GSM modem connection...
+2025-06-29 00:56:34 [INFO]: GSM modem port opened: COM3
+2025-06-29 00:56:44 [ERROR]: Failed to initialize modem settings - Error: Command timeout: AT
+2025-06-29 00:56:44 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
+2025-06-29 00:56:44 [ERROR]: OTP SMS sending failed - Error: GSM modem is not healthy
+2025-06-29 00:57:16 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 00:57:16 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:57:16 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 00:57:16 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 00:57:16 [INFO]: Users table initialized successfully
+2025-06-29 00:57:16 [INFO]: Database synchronization mode set to FULL
+2025-06-29 00:57:16 [INFO]: Phone hash index created successfully
+2025-06-29 00:57:16 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 00:58:28 [INFO]: Registration attempt - Phone: $2b$12$n..., IP: ::1
+2025-06-29 00:58:28 [INFO]: OTP generated for phone: $2b$12$n...
+2025-06-29 00:58:28 [INFO]: Starting SMS send to +21*******519
+2025-06-29 00:58:28 [INFO]: Initializing GSM modem connection...
+2025-06-29 00:58:28 [INFO]: GSM modem port opened: COM3
+2025-06-29 00:58:38 [ERROR]: Failed to initialize modem settings - Error: Command timeout: AT
+2025-06-29 00:58:38 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
+2025-06-29 00:58:38 [ERROR]: OTP SMS sending failed - Error: GSM modem is not healthy
+2025-06-29 00:59:19 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
+2025-06-29 01:06:28 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 01:06:29 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 01:06:29 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 01:06:29 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 01:06:29 [INFO]: Users table initialized successfully
+2025-06-29 01:06:29 [INFO]: Database synchronization mode set to FULL
+2025-06-29 01:06:29 [INFO]: Phone hash index created successfully
+2025-06-29 01:06:29 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 01:06:35 [INFO]: Initializing GSM modem connection...
+2025-06-29 01:06:35 [INFO]: GSM modem port opened: COM3
+2025-06-29 01:06:45 [ERROR]: Failed to initialize modem settings - Error: Command timeout: AT
+2025-06-29 01:06:45 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
+2025-06-29 01:06:51 [INFO]: Registration attempt - Phone: $2b$12$v..., IP: ::1
+2025-06-29 01:06:51 [INFO]: OTP generated for phone: $2b$12$v...
+2025-06-29 01:06:52 [INFO]: Starting SMS send to +12*****890
+2025-06-29 01:07:02 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
+2025-06-29 01:07:02 [INFO]: ✅ Demo registration successful for phone: +123****890
+2025-06-29 01:07:02 [INFO]: Registration attempt - Phone: $2b$12$R..., IP: ::1
+2025-06-29 01:07:02 [INFO]: OTP generated for phone: $2b$12$R...
+2025-06-29 01:07:03 [INFO]: Starting SMS send to +12*****890
+2025-06-29 01:07:13 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
+2025-06-29 01:07:13 [INFO]: ✅ Demo registration successful for phone: +123****890
+2025-06-29 18:07:03 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 18:07:03 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 18:07:03 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 18:07:03 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 18:07:03 [INFO]: Users table initialized successfully
+2025-06-29 18:07:03 [INFO]: Database synchronization mode set to FULL
+2025-06-29 18:07:03 [INFO]: Phone hash index created successfully
+2025-06-29 18:07:03 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 18:09:04 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 18:09:04 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 18:09:04 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 18:09:04 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 18:09:04 [INFO]: Users table initialized successfully
+2025-06-29 18:09:04 [INFO]: Database synchronization mode set to FULL
+2025-06-29 18:09:04 [INFO]: Phone hash index created successfully
+2025-06-29 18:09:04 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 23:25:47 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 23:25:47 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 23:25:47 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 23:25:47 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 23:25:47 [INFO]: Users table initialized successfully
+2025-06-29 23:25:47 [INFO]: Database synchronization mode set to FULL
+2025-06-29 23:25:47 [INFO]: Phone hash index created successfully
+2025-06-29 23:25:47 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 23:26:02 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-29 23:39:10 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 23:39:10 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 23:39:10 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 23:39:10 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 23:39:10 [INFO]: Users table initialized successfully
+2025-06-29 23:39:10 [INFO]: Database synchronization mode set to FULL
+2025-06-29 23:39:10 [INFO]: Phone hash index created successfully
+2025-06-29 23:39:10 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 23:40:06 [INFO]: Registration attempt - Phone: $2b$12$Q..., IP: ::1
+2025-06-29 23:40:06 [INFO]: OTP generated for phone: $2b$12$Q...
+2025-06-29 23:40:06 [INFO]: Starting SMS send to +21*******416
+2025-06-29 23:40:06 [INFO]: Initializing GSM modem connection...
+2025-06-29 23:40:06 [INFO]: GSM modem port opened: COM5
+2025-06-29 23:40:06 [INFO]: Modem settings initialized successfully
+2025-06-29 23:40:06 [INFO]: GSM modem initialized successfully
+2025-06-29 23:40:06 [INFO]: GSM modem health check: HEALTHY
+2025-06-29 23:40:06 [INFO]: Modem health: Signal -85dBm, SIM Ready, Network Home Network
+2025-06-29 23:40:06 [INFO]: Sending SMS to +21*******416 via GSM modem
+2025-06-29 23:40:17 [ERROR]: Failed to send OTP SMS to: +213****56416. Error: Command timeout: AT+CMGS="+213776256416"
+2025-06-29 23:40:17 [ERROR]: ❌ Failed to send SMS to +21*******416 - Error: Command timeout: AT+CMGS="+213776256416"
+2025-06-29 23:40:17 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-29 23:40:50 [INFO]: Verification validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-29 23:48:59 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-29 23:48:59 [INFO]: HTTP server closed
+2025-06-29 23:48:59 [INFO]: Database connection closed
+2025-06-29 23:48:59 [INFO]: GSM modem port closed
+2025-06-29 23:57:10 [INFO]: Initializing Aegis Local Auth database...
+2025-06-29 23:57:10 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 23:57:10 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-29 23:57:10 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-29 23:57:10 [INFO]: Users table initialized successfully
+2025-06-29 23:57:10 [INFO]: Database synchronization mode set to FULL
+2025-06-29 23:57:10 [INFO]: Phone hash index created successfully
+2025-06-29 23:57:10 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-29 23:57:23 [INFO]: Registration attempt - Phone: $2b$12$0..., IP: ::1
+2025-06-29 23:57:23 [INFO]: OTP generated for phone: $2b$12$0...
+2025-06-29 23:57:23 [INFO]: Starting SMS send to +21*******416
+2025-06-29 23:57:23 [INFO]: Initializing GSM modem connection...
+2025-06-29 23:57:23 [INFO]: GSM modem port opened: COM5
+2025-06-29 23:57:33 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-29 23:57:33 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-29 23:57:33 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-29 23:57:56 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-29 23:58:00 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-29 23:58:03 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-29 23:58:22 [INFO]: Registration attempt - Phone: $2b$12$1..., IP: ::1
+2025-06-29 23:58:22 [INFO]: OTP generated for phone: $2b$12$1...
+2025-06-29 23:58:22 [INFO]: Starting SMS send to +21*******416
+2025-06-29 23:58:22 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
+2025-06-29 23:58:22 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-29 23:58:47 [INFO]: Registration attempt - Phone: $2b$12$z..., IP: ::1
+2025-06-29 23:58:47 [INFO]: OTP generated for phone: $2b$12$z...
+2025-06-29 23:58:47 [INFO]: Starting SMS send to +21*******416
+2025-06-29 23:58:47 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
+2025-06-29 23:58:47 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-29 23:59:11 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-29 23:59:16 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-30 00:00:04 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 00:00:04 [INFO]: HTTP server closed
+2025-06-30 00:00:04 [INFO]: Database connection closed
+2025-06-30 00:00:04 [INFO]: GSM modem port closed
+2025-06-30 00:00:52 [INFO]: Initializing GSM modem connection...
+2025-06-30 00:00:52 [INFO]: GSM modem port opened: COM5
+2025-06-30 00:01:02 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 00:01:02 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 00:01:02 [INFO]: GSM modem port closed
+2025-06-30 00:49:36 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 00:49:36 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 00:49:36 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 00:49:36 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 00:49:36 [INFO]: Users table initialized successfully
+2025-06-30 00:49:36 [INFO]: Database synchronization mode set to FULL
+2025-06-30 00:49:36 [INFO]: Phone hash index created successfully
+2025-06-30 00:49:36 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 00:49:53 [INFO]: Registration attempt - Phone: $2b$12$k..., IP: ::1
+2025-06-30 00:49:53 [INFO]: OTP generated for phone: $2b$12$k...
+2025-06-30 00:49:53 [INFO]: Starting SMS send to +21*******416
+2025-06-30 00:49:53 [INFO]: Initializing GSM modem connection...
+2025-06-30 00:49:53 [INFO]: GSM modem port opened: COM5
+2025-06-30 00:50:03 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 00:50:03 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 00:50:03 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 00:50:52 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-30 00:53:13 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 00:53:13 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 00:53:13 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 00:53:13 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 00:53:13 [INFO]: Users table initialized successfully
+2025-06-30 00:53:13 [INFO]: Database synchronization mode set to FULL
+2025-06-30 00:53:13 [INFO]: Phone hash index created successfully
+2025-06-30 00:53:13 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-30 00:53:13 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-06-30 00:53:13 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-06-30 00:53:13 [INFO]: HTTP server closed
+2025-06-30 00:53:39 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 00:53:39 [INFO]: HTTP server closed
+2025-06-30 00:53:39 [INFO]: Database connection closed
+2025-06-30 00:53:39 [INFO]: GSM modem port closed
+2025-06-30 00:57:11 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 00:57:11 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 00:57:11 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 00:57:11 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 00:57:11 [INFO]: Users table initialized successfully
+2025-06-30 00:57:11 [INFO]: Database synchronization mode set to FULL
+2025-06-30 00:57:11 [INFO]: Phone hash index created successfully
+2025-06-30 00:57:11 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 00:57:26 [INFO]: Initializing GSM modem connection...
+2025-06-30 00:57:26 [INFO]: GSM modem port opened: COM5
+2025-06-30 00:57:36 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 00:57:36 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 00:57:41 [INFO]: Registration attempt - Phone: $2b$12$X..., IP: ::1
+2025-06-30 00:57:41 [INFO]: OTP generated for phone: $2b$12$X...
+2025-06-30 00:57:42 [INFO]: Starting SMS send to +21*******416
+2025-06-30 00:57:42 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
+2025-06-30 00:57:42 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 00:58:32 [INFO]: Registration validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-30 00:59:55 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 00:59:55 [INFO]: HTTP server closed
+2025-06-30 00:59:55 [INFO]: Database connection closed
+2025-06-30 00:59:55 [INFO]: GSM modem port closed
+2025-06-30 01:00:06 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:00:06 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:00:06 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:00:06 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:00:06 [INFO]: Users table initialized successfully
+2025-06-30 01:00:06 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:00:06 [INFO]: Phone hash index created successfully
+2025-06-30 01:00:06 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 01:03:50 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 01:03:50 [INFO]: HTTP server closed
+2025-06-30 01:03:59 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:03:59 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:03:59 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:03:59 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:03:59 [INFO]: Users table initialized successfully
+2025-06-30 01:03:59 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:03:59 [INFO]: Phone hash index created successfully
+2025-06-30 01:03:59 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 01:04:11 [INFO]: Registration attempt - Phone: $2b$12$H..., IP: ::1
+2025-06-30 01:04:11 [INFO]: OTP generated for phone: $2b$12$H...
+2025-06-30 01:04:11 [INFO]: Starting SMS send to +21*******416
+2025-06-30 01:04:11 [INFO]: Initializing GSM modem connection...
+2025-06-30 01:04:11 [INFO]: GSM modem port opened: COM5
+2025-06-30 01:04:21 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 01:04:21 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 01:04:21 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 01:05:52 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
+2025-06-30 01:05:58 [INFO]: Registration attempt - Phone: $2b$12$p..., IP: ::1
+2025-06-30 01:05:58 [INFO]: OTP generated for phone: $2b$12$p...
+2025-06-30 01:05:59 [INFO]: Starting SMS send to +21*******416
+2025-06-30 01:05:59 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
+2025-06-30 01:05:59 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 01:06:49 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 01:06:49 [INFO]: HTTP server closed
+2025-06-30 01:06:49 [INFO]: Database connection closed
+2025-06-30 01:06:49 [INFO]: GSM modem port closed
+2025-06-30 01:22:40 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:22:40 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:22:40 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:22:40 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:22:40 [INFO]: Users table initialized successfully
+2025-06-30 01:22:40 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:22:40 [INFO]: Phone hash index created successfully
+2025-06-30 01:22:40 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 01:23:14 [INFO]: Registration attempt - Phone: $2b$12$U..., IP: ::1
+2025-06-30 01:23:14 [INFO]: OTP generated for phone: $2b$12$U...
+2025-06-30 01:23:14 [INFO]: Starting SMS send to +21*******416
+2025-06-30 01:23:14 [INFO]: Initializing GSM modem connection...
+2025-06-30 01:23:14 [INFO]: GSM modem port opened: COM5
+2025-06-30 01:23:24 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 01:23:24 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 01:23:24 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 01:23:49 [INFO]: Verification validation failed: [{"type":"field","value":"+213****56416","msg":"Phone number must be in valid international format (e.g., +1234567890)","path":"phoneNumber","location":"body"}]
+2025-06-30 01:26:49 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 01:26:49 [INFO]: HTTP server closed
+2025-06-30 01:26:49 [INFO]: Database connection closed
+2025-06-30 01:26:49 [INFO]: GSM modem port closed
+2025-06-30 01:31:06 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:31:06 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:31:06 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:31:06 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:31:06 [INFO]: Users table initialized successfully
+2025-06-30 01:31:06 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:31:07 [INFO]: Phone hash index created successfully
+2025-06-30 01:31:07 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 01:36:22 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:36:22 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:36:22 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:36:22 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:36:22 [INFO]: Users table initialized successfully
+2025-06-30 01:36:22 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:36:22 [INFO]: Phone hash index created successfully
+2025-06-30 01:36:22 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-30 01:36:22 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-06-30 01:36:22 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-06-30 01:36:22 [INFO]: HTTP server closed
+2025-06-30 01:36:28 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 01:36:28 [INFO]: HTTP server closed
+2025-06-30 01:37:00 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:37:00 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:37:00 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:37:00 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:37:00 [INFO]: Users table initialized successfully
+2025-06-30 01:37:00 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:37:00 [INFO]: Phone hash index created successfully
+2025-06-30 01:37:00 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 01:37:11 [INFO]: Registration attempt - Phone: $2b$12$j..., IP: ::1
+2025-06-30 01:37:11 [INFO]: OTP generated for phone: $2b$12$j...
+2025-06-30 01:37:12 [INFO]: Starting SMS send to +21*******416
+2025-06-30 01:37:12 [INFO]: Initializing GSM modem connection...
+2025-06-30 01:37:12 [INFO]: GSM modem port opened: COM5
+2025-06-30 01:37:22 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 01:37:22 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 01:37:22 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 01:37:46 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-06-30 01:37:46 [INFO]: HTTP server closed
+2025-06-30 01:37:46 [INFO]: Database connection closed
+2025-06-30 01:37:46 [INFO]: GSM modem port closed
+2025-06-30 01:38:08 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:38:08 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:38:08 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:38:08 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:38:08 [INFO]: Users table initialized successfully
+2025-06-30 01:38:08 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:38:08 [INFO]: Phone hash index created successfully
+2025-06-30 01:38:08 [INFO]: Aegis Local Auth server started on port 3000
+2025-06-30 01:38:13 [INFO]: Registration attempt - Phone: $2b$12$P..., IP: ::1
+2025-06-30 01:38:13 [INFO]: OTP generated for phone: $2b$12$P...
+2025-06-30 01:38:13 [INFO]: Starting SMS send to +21*******416
+2025-06-30 01:38:13 [INFO]: Initializing GSM modem connection...
+2025-06-30 01:38:13 [INFO]: GSM modem port opened: COM5
+2025-06-30 01:38:23 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
+2025-06-30 01:38:23 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
+2025-06-30 01:38:23 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-06-30 01:38:26 [INFO]: Initializing Aegis Local Auth database...
+2025-06-30 01:38:26 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:38:26 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-06-30 01:38:26 [INFO]: Database file created successfully, size: 20480 bytes
+2025-06-30 01:38:26 [INFO]: Users table initialized successfully
+2025-06-30 01:38:26 [INFO]: Database synchronization mode set to FULL
+2025-06-30 01:38:26 [INFO]: Phone hash index created successfully
+2025-06-30 01:38:26 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-30 01:38:26 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-06-30 01:38:26 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-06-30 01:38:26 [INFO]: HTTP server closed
+2025-06-30 01:38:30 [INFO]: Authentication attempt - Phone: $2b$12$U..., Success: false, IP: ::1
+2025-06-30 01:38:38 [INFO]: Registration attempt - Phone: $2b$12$9..., IP: ::1
+2025-06-30 01:38:38 [INFO]: OTP generated for phone: $2b$12$9...
+2025-06-30 01:38:39 [INFO]: Starting SMS send to +21*******416
+2025-06-30 01:38:39 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
+2025-06-30 01:38:39 [INFO]: ✅ Demo registration successful for phone: +213****56416
+2025-07-07 02:54:35 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 02:54:35 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 02:54:35 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 02:54:35 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 02:54:35 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 02:54:35 [INFO]: Users table initialized successfully
+2025-07-07 02:54:35 [INFO]: Database synchronization mode set to FULL
+2025-07-07 02:54:35 [INFO]: Phone hash index created successfully
+2025-07-07 02:54:35 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 03:54:20 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 03:54:20 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 03:54:20 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 03:54:20 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 03:54:20 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 03:54:20 [INFO]: Users table initialized successfully
+2025-07-07 03:54:20 [INFO]: Database synchronization mode set to FULL
+2025-07-07 03:54:20 [INFO]: Phone hash index created successfully
+2025-07-07 03:54:20 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 05:22:31 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 05:22:31 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:22:31 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 05:22:31 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:22:31 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 05:22:31 [INFO]: Users table initialized successfully
+2025-07-07 05:22:31 [INFO]: Database synchronization mode set to FULL
+2025-07-07 05:22:31 [INFO]: Phone hash index created successfully
+2025-07-07 05:22:31 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 05:44:39 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 05:44:39 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:44:39 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 05:44:39 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:44:39 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 05:44:39 [INFO]: Users table initialized successfully
+2025-07-07 05:44:39 [INFO]: Database synchronization mode set to FULL
+2025-07-07 05:44:39 [INFO]: Phone hash index created successfully
+2025-07-07 05:44:39 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-07 05:44:39 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-07 05:44:39 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-07-07 05:44:39 [INFO]: HTTP server closed
+2025-07-07 05:46:15 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 05:46:15 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:46:15 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 05:46:15 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:46:15 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 05:46:15 [INFO]: Users table initialized successfully
+2025-07-07 05:46:15 [INFO]: Database synchronization mode set to FULL
+2025-07-07 05:46:15 [INFO]: Phone hash index created successfully
+2025-07-07 05:46:15 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-07 05:46:15 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-07 05:46:15 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-07-07 05:46:15 [INFO]: HTTP server closed
+2025-07-07 05:56:16 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 05:56:16 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:56:16 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 05:56:16 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 05:56:16 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 05:56:16 [INFO]: Users table initialized successfully
+2025-07-07 05:56:16 [INFO]: Database synchronization mode set to FULL
+2025-07-07 05:56:16 [INFO]: Phone hash index created successfully
+2025-07-07 05:56:16 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:05:19 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:05:19 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:05:19 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:05:19 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:05:19 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:05:19 [INFO]: Users table initialized successfully
+2025-07-07 09:05:19 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:05:19 [INFO]: Phone hash index created successfully
+2025-07-07 09:05:19 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:05:48 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\public\index.html'
+2025-07-07 09:06:09 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\public\index.html'
+2025-07-07 09:07:29 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-07 09:07:29 [INFO]: HTTP server closed
+2025-07-07 09:09:53 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:09:53 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:09:53 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:09:53 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:09:53 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:09:53 [INFO]: Users table initialized successfully
+2025-07-07 09:09:53 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:09:53 [INFO]: Phone hash index created successfully
+2025-07-07 09:09:53 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:15:53 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:15:53 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:15:53 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:15:53 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:15:53 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:15:53 [INFO]: Users table initialized successfully
+2025-07-07 09:15:53 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:15:53 [INFO]: Phone hash index created successfully
+2025-07-07 09:15:53 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:135:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:135:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-07 09:15:53 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-07 09:15:53 [INFO]: Received uncaughtException. Starting graceful shutdown...
+2025-07-07 09:15:53 [INFO]: HTTP server closed
+2025-07-07 09:21:32 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-07 09:21:32 [INFO]: HTTP server closed
+2025-07-07 09:22:18 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:22:18 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:22:18 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:22:18 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:22:18 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:22:18 [INFO]: Users table initialized successfully
+2025-07-07 09:22:18 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:22:18 [INFO]: Phone hash index created successfully
+2025-07-07 09:22:18 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:29:48 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-07 09:29:48 [INFO]: HTTP server closed
+2025-07-07 09:29:48 [INFO]: Database connection closed
+2025-07-07 09:30:58 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:30:58 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:30:58 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:30:58 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:30:58 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:30:58 [INFO]: Users table initialized successfully
+2025-07-07 09:30:58 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:30:58 [INFO]: Phone hash index created successfully
+2025-07-07 09:30:58 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:34:20 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:34:20 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:34:20 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:34:20 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:34:20 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:34:20 [INFO]: Users table initialized successfully
+2025-07-07 09:34:20 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:34:20 [INFO]: Phone hash index created successfully
+2025-07-07 09:34:20 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:36:48 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-07 09:36:48 [INFO]: HTTP server closed
+2025-07-07 09:39:08 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 09:39:08 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:39:08 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 09:39:08 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 09:39:08 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 09:39:08 [INFO]: Users table initialized successfully
+2025-07-07 09:39:08 [INFO]: Database synchronization mode set to FULL
+2025-07-07 09:39:08 [INFO]: Phone hash index created successfully
+2025-07-07 09:39:08 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 09:39:49 [INFO]: Registration attempt - Phone: $2b$12$S..., IP: ::1
+2025-07-07 09:39:50 [INFO]: OTP generated for phone: $2b$12$S...
+2025-07-07 09:39:50 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******519
+2025-07-07 09:39:50 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-07 09:39:50 [INFO]: [SMS-API] Envoi d'un SMS à +213794236519 via l'API principale
+2025-07-07 09:39:50 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-07 09:39:50 [ERROR]: [OTPEngine] ❌ Erreur lors de l'envoi SMS OTP vers +213******519: - Error: logger.warn is not a function
+2025-07-07 09:39:50 [INFO]: ✅ Demo registration successful for phone: +213****36519
+2025-07-07 10:00:27 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 10:00:27 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 10:00:27 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 10:00:27 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 10:00:27 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 10:00:27 [INFO]: Users table initialized successfully
+2025-07-07 10:00:27 [INFO]: Database synchronization mode set to FULL
+2025-07-07 10:00:27 [INFO]: Phone hash index created successfully
+2025-07-07 10:00:27 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 10:01:18 [INFO]: Registration attempt - Phone: $2b$12$M..., IP: ::1
+2025-07-07 10:01:19 [INFO]: OTP generated for phone: $2b$12$M...
+2025-07-07 10:01:19 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******519
+2025-07-07 10:01:19 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-07 10:01:19 [INFO]: [SMS-API] Envoi d'un SMS à +213794236519 via l'API principale
+2025-07-07 10:01:19 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-07 10:01:19 [INFO]: [OTPEngine] Le fournisseur principal a échoué. Tentative avec le(s) fournisseur(s) de secours.
+2025-07-07 10:01:19 [ERROR]: [OTPEngine] ❌ Erreur lors de l'envoi SMS OTP vers +213******519: - Error: config.SMS_FALLBACK_PROVIDERS is not iterable
+2025-07-07 10:01:19 [INFO]: ✅ OTP sent via undefined.
+2025-07-07 10:02:24 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-07 10:02:24 [INFO]: HTTP server closed
+2025-07-07 10:07:25 [INFO]: Initializing Aegis Local Auth database...
+2025-07-07 10:07:25 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 10:07:25 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-07 10:07:25 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-07 10:07:25 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-07 10:07:25 [INFO]: Users table initialized successfully
+2025-07-07 10:07:25 [INFO]: Database synchronization mode set to FULL
+2025-07-07 10:07:25 [INFO]: Phone hash index created successfully
+2025-07-07 10:07:25 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-07 10:08:33 [INFO]: Registration attempt - Phone: $2b$12$g..., IP: ::1
+2025-07-07 10:08:33 [INFO]: OTP generated for phone: $2b$12$g...
+2025-07-07 10:08:33 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******519
+2025-07-07 10:08:33 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-07 10:08:33 [INFO]: [SMS-API] Envoi d'un SMS à +213794236519 via l'API principale
+2025-07-07 10:08:33 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-07 10:08:33 [INFO]: [OTPEngine] Le fournisseur principal a échoué. Tentative avec le(s) fournisseur(s) de secours.
+2025-07-07 10:08:33 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: gateway
+2025-07-07 10:08:33 [INFO]: [SMS-Gateway] Envoi d'un SMS à +213794236519 via http://192.168.1.140:8090/send
+2025-07-07 10:08:36 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-07 10:08:36 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: modem
+2025-07-07 10:08:36 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-07 10:08:36 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 2805ms
+2025-07-07 10:08:36 [INFO]: ✅ OTP sent via undefined.
+2025-07-07 10:10:45 [INFO]: Registration attempt - Phone: $2b$12$K..., IP: ::1
+2025-07-07 10:10:45 [INFO]: OTP generated for phone: $2b$12$K...
+2025-07-07 10:10:45 [INFO]: [OTPEngine] Démarrage de l'envoi SMS OTP vers +213******519
+2025-07-07 10:10:45 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur principal: api
+2025-07-07 10:10:45 [INFO]: [SMS-API] Envoi d'un SMS à +213794236519 via l'API principale
+2025-07-07 10:10:45 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
+2025-07-07 10:10:45 [INFO]: [OTPEngine] Le fournisseur principal a échoué. Tentative avec le(s) fournisseur(s) de secours.
+2025-07-07 10:10:45 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: gateway
+2025-07-07 10:10:45 [INFO]: [SMS-Gateway] Envoi d'un SMS à +213794236519 via http://192.168.1.140:8090/send
+2025-07-07 10:10:48 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-07 10:10:48 [INFO]: [OTPEngine] Tentative d'envoi via le fournisseur de secours: modem
+2025-07-07 10:10:48 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-07 10:10:48 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 2431ms
+2025-07-07 10:10:48 [INFO]: ✅ OTP sent via undefined.
+2025-07-08 09:05:48 [INFO]: Initializing Aegis Local Auth database...
+2025-07-08 09:05:48 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-08 09:05:48 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-08 09:05:48 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-08 09:05:48 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-08 09:05:48 [INFO]: Users table initialized successfully
+2025-07-08 09:05:48 [INFO]: Database synchronization mode set to FULL
+2025-07-08 09:05:48 [INFO]: Phone hash index created successfully
+2025-07-08 09:05:48 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-08 09:05:57 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:05:59 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:02 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:02 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:03 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:04 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:04 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:05 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:05 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:06:18 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:07:26 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:14:25 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-08 09:14:25 [INFO]: HTTP server closed
+2025-07-08 09:14:33 [INFO]: Initializing Aegis Local Auth database...
+2025-07-08 09:14:33 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-08 09:14:33 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-08 09:14:33 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-08 09:14:33 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-08 09:14:33 [INFO]: Users table initialized successfully
+2025-07-08 09:14:33 [INFO]: Database synchronization mode set to FULL
+2025-07-08 09:14:33 [INFO]: Phone hash index created successfully
+2025-07-08 09:14:33 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-08 09:14:40 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-08 09:14:42 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
+2025-07-09 00:57:01 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 00:57:01 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 00:57:01 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 00:57:01 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 00:57:01 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 00:57:01 [INFO]: Users table initialized successfully
+2025-07-09 00:57:01 [INFO]: Database synchronization mode set to FULL
+2025-07-09 00:57:01 [INFO]: Phone hash index created successfully
+2025-07-09 00:57:01 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 01:03:38 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-09 01:03:38 [INFO]: HTTP server closed
+2025-07-09 01:22:12 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 01:22:12 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:22:12 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 01:22:12 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:22:12 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 01:22:12 [INFO]: Users table initialized successfully
+2025-07-09 01:22:12 [INFO]: Database synchronization mode set to FULL
+2025-07-09 01:22:12 [INFO]: Phone hash index created successfully
+2025-07-09 01:22:12 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 01:25:03 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-09 01:25:03 [INFO]: HTTP server closed
+2025-07-09 01:25:23 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 01:25:23 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:25:23 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 01:25:23 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:25:23 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 01:25:23 [INFO]: Users table initialized successfully
+2025-07-09 01:25:23 [INFO]: Database synchronization mode set to FULL
+2025-07-09 01:25:23 [INFO]: Phone hash index created successfully
+2025-07-09 01:25:23 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 01:27:40 [INFO]: Received SIGINT. Starting graceful shutdown...
+2025-07-09 01:30:24 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 01:30:24 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:30:24 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 01:30:24 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:30:24 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 01:30:24 [INFO]: Users table initialized successfully
+2025-07-09 01:30:24 [INFO]: Database synchronization mode set to FULL
+2025-07-09 01:30:24 [INFO]: Phone hash index created successfully
+2025-07-09 01:30:24 [INFO]: Aegis Local Auth server started on port 3000
