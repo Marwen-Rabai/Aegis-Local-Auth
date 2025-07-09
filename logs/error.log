@@ -197,3 +197,4 @@ Stack: Error: listen EADDRINUSE: address already in use :::3000
 2025-07-09 01:22:12 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
 2025-07-09 01:25:23 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
 2025-07-09 01:30:24 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 01:44:42 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found

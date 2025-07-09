@@ -746,3 +746,13 @@ Stack: Error: listen EADDRINUSE: address already in use :::3000
 2025-07-09 01:30:24 [INFO]: Database synchronization mode set to FULL
 2025-07-09 01:30:24 [INFO]: Phone hash index created successfully
 2025-07-09 01:30:24 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 01:44:42 [INFO]: Initializing Aegis Local Auth database...
+2025-07-09 01:44:42 [INFO]: Initializing database at: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:44:42 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 01:44:42 [INFO]: Database connected successfully: D:\Boulot\Auto_Registry\Aegis Local Auth\aegis_users.sqlite
+2025-07-09 01:44:42 [INFO]: Database file created successfully, size: 20480 bytes
+2025-07-09 01:44:42 [INFO]: Users table initialized successfully
+2025-07-09 01:44:42 [INFO]: Database synchronization mode set to FULL
+2025-07-09 01:44:42 [INFO]: Phone hash index created successfully
+2025-07-09 01:44:42 [INFO]: Aegis Local Auth server started on port 3000
+2025-07-09 01:47:22 [INFO]: Received SIGINT. Starting graceful shutdown...
