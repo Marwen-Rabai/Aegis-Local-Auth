@@ -125,13 +125,14 @@ module.exports = {
 
   /**
    * Configuration pour l'API SMS principale
+   * IMPORTANT: Remplacer les valeurs ci-dessous avec vos informations réelles d'API SMS
    */
   SMS_API_CONFIG: {
-    // Votre clé API pour le service SMS
-    apiKey: '060dc53b991317113843223d8644095b03d29eb20de08d1a',
+    // Votre clé API pour le service SMS - REMPLACER par votre clé réelle
+    apiKey: 'your-sms-api-key-here',
     
-    // URL de l'API SMS (vous devrez peut-être ajuster selon votre fournisseur)
-    url: 'https://api.sms-provider.com/send', // <-- METTEZ L'URL DE VOTRE API ICI
+    // URL de l'API SMS - REMPLACER par l'URL réelle de votre fournisseur
+    url: 'https://your-sms-api-endpoint.com/send', 
     
     // Timeout pour la requête HTTP en millisecondes
     timeout: 15000,
@@ -145,12 +146,13 @@ module.exports = {
 
   /**
    * Configuration pour la passerelle SMS Android
+   * IMPORTANT: Mettre à jour l'URL avec l'adresse IP et le port corrects de votre appareil
    */
   SMS_GATEWAY_CONFIG: {
     // L'URL affichée par l'application sur votre téléphone Android.
     // Assurez-vous que votre PC et votre téléphone sont sur le même réseau Wi-Fi.
-    // L'API de l'app "GSM Modem (SMS)" utilise la méthode POST sur /send
-    url: 'http://192.168.1.140:8090/send', // <-- METTEZ L'IP DE VOTRE TÉLÉPHONE ICI
+    // REMPLACER par l'IP et le port réels de votre appareil
+    url: 'http://your-android-device-ip:8090/send',
 
     // La plupart de ces applications simples n'ont pas de clé API, mais c'est une bonne pratique de le prévoir.
     apiKey: null,
