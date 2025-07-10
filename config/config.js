@@ -127,15 +127,15 @@ module.exports = {
    * IMPORTANT: Remplacer les valeurs ci-dessous avec vos informations réelles d'API SMS
    */
   SMS_API_CONFIG: {
-    apiKey: 'OCDD7VJNkW1C-YwtkcejTVSg',
-    url: 'https://api.sms-t.com/send', 
+    apiKey: 'YOUR_SMS_API_KEY_HERE',
+    url: 'https://api.your-sms-provider.com/send',
     timeout: 15000,
     headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json'
     },
-    secret: 'z8@828tN1xz#JzFJ-*nXDAMi3zXUDdDy8*5w!6N6',
-    token: 'w-1STZFtQvmMLZHHo01UoE3E5MS6tvj_0TIY1Xc9MmfB9-kUhR50xhIjiepyzurF'
+    secret: 'YOUR_SMS_API_SECRET_HERE',
+    token: 'YOUR_SMS_API_TOKEN_HERE'
   },
 
   /**

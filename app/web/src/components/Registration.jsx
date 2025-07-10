@@ -1,75 +1,58 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React, { useState } from 'react'
+import axios from 'axios'
 
-const Registration = () => {
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [otp, setOtp] = useState('');
-  const [message, setMessage] = useState('');
-  const [isOtpSent, setIsOtpSent] = useState(false);
+function Registration() {
+  const [phoneNumber, setPhoneNumber] = useState('')
+  const [status, setStatus] = useState('')
+  const [isLoading, setIsLoading] = useState(false)
 
-  const handleRegister = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setIsLoading(true)
+    setStatus('')
     try {
-      setMessage('Sending OTP...');
-      const response = await axios.post('/api/register', { phoneNumber });
-      setMessage(response.data.message);
-      if (response.status === 200) {
-        setIsOtpSent(true);
-      }
+      const response = await axios.post('/api/register', { phoneNumber })
+      setStatus(response.data.message || 'Registration successful!')
+      setPhoneNumber('')
     } catch (error) {
-      setMessage(error.response?.data?.error || 'An error occurred during registration.');
+      setStatus(error.response?.data?.error || 'Failed to register. Please try again.')
+    } finally {
+      setIsLoading(false)
     }
-  };
-
-  const handleVerify = async () => {
-    try {
-      setMessage('Verifying OTP...');
-      const response = await axios.post('/api/verify', { phoneNumber, otp });
-      setMessage(response.data.message);
-    } catch (error) {
-      setMessage(error.response?.data?.error || 'An error occurred during verification.');
-    }
-  };
+  }
 
   return (
-    <div className="p-6 bg-gray-800 rounded-lg shadow-md">
-      <h2 className="text-2xl font-bold mb-4">Single Registration</h2>
-      {!isOtpSent ? (
-        <div className="space-y-4">
+    <div className="animate-fade-in">
+      <h2 className="text-2xl font-bold mb-6 text-center text-indigo-300">Single Registration</h2>
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div>
+          <label htmlFor="phoneNumber" className="block text-sm font-medium text-gray-300 mb-1">Phone Number</label>
           <input
             type="text"
+            id="phoneNumber"
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
-            placeholder="Enter phone number (e.g., +1234567890)"
-            className="w-full p-2 bg-gray-700 rounded"
+            placeholder="+1234567890"
+            className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all duration-200"
+            required
+            disabled={isLoading}
           />
-          <button
-            onClick={handleRegister}
-            className="w-full p-2 bg-blue-600 hover:bg-blue-700 rounded font-bold"
-          >
-            Send OTP
-          </button>
         </div>
-      ) : (
-        <div className="space-y-4">
-          <p className="text-green-400">OTP sent to {phoneNumber}</p>
-          <input
-            type="text"
-            value={otp}
-            onChange={(e) => setOtp(e.target.value)}
-            placeholder="Enter OTP"
-            className="w-full p-2 bg-gray-700 rounded"
-          />
-          <button
-            onClick={handleVerify}
-            className="w-full p-2 bg-green-600 hover:bg-green-700 rounded font-bold"
-          >
-            Verify OTP
-          </button>
+        <button
+          type="submit"
+          className={`w-full py-3 px-4 rounded-lg font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all duration-200 ${isLoading ? 'opacity-70 cursor-not-allowed' : ''}`}
+          disabled={isLoading}
+        >
+          {isLoading ? 'Sending...' : 'Register & Send OTP'}
+        </button>
+      </form>
+      {status && (
+        <div className={`mt-4 p-3 rounded-lg text-sm ${status.includes('success') ? 'bg-green-500/20 text-green-200' : 'bg-red-500/20 text-red-200'} animate-fade-in`}>
+          {status}
         </div>
       )}
-      {message && <p className="mt-4 text-center">{message}</p>}
     </div>
-  );
-};
+  )
+}
 
-export default Registration; 
+export default Registration 
