@@ -218,3 +218,97 @@ Stack: Error: listen EADDRINUSE: address already in use :::3000
 2025-07-09 02:32:03 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
 2025-07-09 02:32:03 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
 2025-07-09 02:32:03 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 10218ms
+2025-07-09 23:53:08 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 23:55:12 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 23:55:13 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-09 23:55:13 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-09 23:58:32 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 23:58:46 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-09 23:58:46 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-09 23:58:46 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-09 23:59:29 [ERROR]: [SMS-API] Erreur de réponse de l'API: - Error: [object Object]
+2025-07-09 23:59:31 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-09 23:59:31 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-09 23:59:31 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 1799ms
+2025-07-10 00:05:02 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:05:03 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:05:21 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:05:33 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:05:49 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:05:57 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:10:23 [ERROR]: [SMS-API] Erreur de réponse de l'API: - Error: [object Object]
+2025-07-10 00:10:24 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
+2025-07-10 00:10:24 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
+2025-07-10 00:10:24 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 1862ms
+2025-07-10 00:19:25 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:19:33 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:33:09 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:33:11 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:33:21 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:33:29 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:33:36 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:33:57 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 00:34:11 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 01:06:06 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 01:57:29 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 01:57:29 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 01:57:29 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-10 01:58:29 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-10 01:58:29 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Stack: Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
+    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-10 01:58:29 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000

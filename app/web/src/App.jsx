@@ -1,32 +1,26 @@
-import React, { useState } from 'react';
-import Registration from './components/Registration';
-import MassRegistration from './components/MassRegistration';
-import Statistics from './components/Statistics';
+import React, { useState } from 'react'
+import Tabs from './components/Tabs'
+import './index.css'
 
 function App() {
-  const [tab, setTab] = useState('register');
+  const [activeTab, setActiveTab] = useState('registration')
 
   return (
-    <div className='bg-gray-900 text-white min-h-screen'>
-      <h1 className='text-4xl font-bold text-center py-4'>Aegis Local Auth</h1>
-      <div className='flex justify-center space-x-4 mb-4'>
-        <button onClick={() => setTab('register')} className={'py-2 px-4 rounded ' + (tab === 'register' ? 'bg-blue-600' : 'bg-gray-700')}>
-          Single Registration
-        </button>
-        <button onClick={() => setTab('mass')} className={'py-2 px-4 rounded ' + (tab === 'mass' ? 'bg-blue-600' : 'bg-gray-700')}>
-          Mass Registration
-        </button>
-        <button onClick={() => setTab('stats')} className={'py-2 px-4 rounded ' + (tab === 'stats' ? 'bg-blue-600' : 'bg-gray-700')}>
-          Statistics
-        </button>
-      </div>
-      <div className='max-w-2xl mx-auto p-6 bg-gray-800 rounded-lg shadow-md'>
-        {tab === 'register' && <Registration />}
-        {tab === 'mass' && <MassRegistration />}
-        {tab === 'stats' && <Statistics />}
-      </div>
+    <div className="min-h-screen bg-gradient-to-br from-indigo-900 to-purple-800 text-white">
+      <header className="p-6 text-center">
+        <h1 className="text-4xl font-bold mb-2 animate-pulse">Aegis Local Auth</h1>
+        <p className="text-lg">Secure SMS Verification System</p>
+      </header>
+      <main className="container mx-auto p-6">
+        <div className="bg-white/10 backdrop-blur-lg rounded-xl shadow-2xl overflow-hidden max-w-4xl mx-auto transition-all duration-300 hover:shadow-3xl">
+          <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
+        </div>
+      </main>
+      <footer className="p-6 text-center text-sm">
+        <p>&copy; {new Date().getFullYear()} Aegis Local Auth. All rights reserved.</p>
+      </footer>
     </div>
-  );
+  )
 }
 
-export default App; 
+export default App 

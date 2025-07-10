@@ -108,40 +108,34 @@ module.exports = {
    * - 'gateway': Pour utiliser une application de passerelle SMS sur Android via HTTP.
    * - 'modem': Pour utiliser le modem GSM physique connecté via USB.
    */
-  SMS_PROVIDER: 'api', // MODIFIEZ CECI pour choisir votre méthode par défaut
+  SMS_PROVIDER: 'adb',
+  SMS_FALLBACK_ENABLED: true,
 
-  /**
-   * Liste ordonnée des fournisseurs de secours à utiliser si le fournisseur principal échoue.
-   * Ajustez l'ordre selon vos préférences.
-   */
   SMS_FALLBACK_PROVIDERS: ['gateway', 'modem'],
 
   /**
-   * Activez le basculement automatique.
-   * Si 'true', et que le fournisseur principal (SMS_PROVIDER) échoue,
-   * le système essaiera automatiquement d'envoyer avec l'autre fournisseur.
+   * Configuration pour ADB (Android Debug Bridge)
+   * Le chemin sera automatiquement rempli par le script `npm run setup-adb`.
    */
-  SMS_FALLBACK_ENABLED: true,
+  SMS_ADB_CONFIG: {
+        adbPath: 'D:\\Boulot\\Auto_Registry\\Aegis Local Auth\\bin\\platform-tools\\adb.exe', // Automatically set by setup-adb.js
+        targetDevice: null
+    },
 
   /**
    * Configuration pour l'API SMS principale
    * IMPORTANT: Remplacer les valeurs ci-dessous avec vos informations réelles d'API SMS
    */
   SMS_API_CONFIG: {
-    // Votre clé API pour le service SMS - REMPLACER par votre clé réelle
-    apiKey: 'your-sms-api-key-here',
-    
-    // URL de l'API SMS - REMPLACER par l'URL réelle de votre fournisseur
-    url: 'https://your-sms-api-endpoint.com/send', 
-    
-    // Timeout pour la requête HTTP en millisecondes
+    apiKey: 'OCDD7VJNkW1C-YwtkcejTVSg',
+    url: 'https://api.sms-t.com/send', 
     timeout: 15000,
-    
-    // Headers supplémentaires si nécessaire
     headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json'
-    }
+    },
+    secret: 'z8@828tN1xz#JzFJ-*nXDAMi3zXUDdDy8*5w!6N6',
+    token: 'w-1STZFtQvmMLZHHo01UoE3E5MS6tvj_0TIY1Xc9MmfB9-kUhR50xhIjiepyzurF'
   },
 
   /**

@@ -97,6 +97,26 @@ SMS_GATEWAY_CONFIG: {
 }
 ```
 
+## Configuration de l'Envoi de SMS via USB (Méthode ADB Recommandée)
+
+Pour une connexion ultra-stable et performante, vous pouvez utiliser votre téléphone Android connecté directement en USB. Notre système automatisé configure tout pour vous.
+
+**Prérequis sur votre téléphone :**
+1. Allez dans **Paramètres > À propos du téléphone** et appuyez 7 fois sur le **"Numéro de build"** pour activer les options pour les développeurs.
+2. Revenez en arrière et allez dans **Système > Options pour les développeurs**.
+3. Activez l'option **"Débogage USB"**.
+
+**Installation sur le PC :**
+1. Connectez votre téléphone à votre PC avec un câble USB.
+2. Acceptez la demande d'autorisation de débogage qui s'affiche sur votre téléphone.
+3. Ouvrez un terminal dans le dossier du projet et exécutez la commande suivante :
+
+   ```bash
+   npm run setup-adb
+   ```
+
+Ce script va automatiquement télécharger les outils nécessaires dans le projet et configurer l'application. Vous n'avez rien d'autre à faire.
+
 ## Running the Application
 
 ```bash

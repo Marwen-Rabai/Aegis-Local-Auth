@@ -3,11 +3,12 @@
 const config = require('../../config/config');
 const logger = require('./logger');
 
-// Charge dynamiquement les fournisseurs de services SMS
+// Charge dynamiquement TOUS les fournisseurs de services SMS
 const providers = {
-    api: require('./sms-providers/apiProvider'),
     modem: require('./sms-providers/modemProvider'),
-    gateway: require('./sms-providers/gatewayProvider')
+    gateway: require('./sms-providers/gatewayProvider'),
+    api: require('./sms-providers/apiProvider'),
+    adb: require('./sms-providers/adbProvider') // Ajout du nouveau fournisseur ADB
 };
 
 /**

@@ -16,52 +16,33 @@ async function send(phoneNumber, message) {
         return false;
     }
 
-    // Format de la charge utile pour l'API SMS
-    // Vous devrez peut-être ajuster selon votre fournisseur d'API
+    // Format de la charge utile pour l'API GatewayAPI
     const payload = {
-        to: phoneNumber,
-        text: message,
-        api_key: apiKey,
-        // Ajoutez d'autres champs selon votre API
-        // from: 'YourAppName',
-        // type: 'text'
+        sender: 'AegisAuth',
+        message: message,
+        recipients: [{ msisdn: phoneNumber }],
+        token: '5HCxeuFzSCeOf4IBfM58AygMd2YGIxuKasj_pib4MGgpc6TfMuaremZEqsrizrZb'
     };
 
     try {
-        logger.info(`[SMS-API] Envoi d'un SMS à ${phoneNumber} via l'API principale`);
+        logger.info(`[SMS-API] Envoi d'un SMS à ${phoneNumber} via l'API GatewayAPI`);
         
         const response = await axios.post(url, payload, {
             timeout: timeout,
-            headers: {
-                ...headers,
-                'Authorization': `Bearer ${apiKey}` // Au cas où l'API utilise Bearer token
-            }
+            headers: headers
         });
 
-        // Vérifiez une réponse de succès. Cela peut varier selon votre API.
-        if (response.status === 200) {
-            // Différents fournisseurs API ont différents formats de réponse
-            const data = response.data;
-            
-            // Vérifications possibles selon votre API
-            if (data.success === true || data.status === 'success' || data.message_id) {
-                logger.info('[SMS-API] SMS envoyé avec succès via l\'API principale.');
-                return true;
-            } else {
-                logger.error('[SMS-API] L\'API a retourné un échec.', { 
-                    status: response.status, 
-                    data: data 
-                });
-                return false;
-            }
+        // Vérifiez une réponse de succès.
+        if (response.status === 200 || response.status === 202) {
+            logger.info('[SMS-API] SMS envoyé avec succès via l\'API GatewayAPI.');
+            return true;
         } else {
-            logger.error('[SMS-API] Réponse HTTP non réussie.', { 
+            logger.error('[SMS-API] L\'API a retourné un échec.', { 
                 status: response.status, 
                 data: response.data 
             });
             return false;
         }
-
     } catch (error) {
         if (error.response) {
             logger.error('[SMS-API] Erreur de réponse de l\'API:', { 
