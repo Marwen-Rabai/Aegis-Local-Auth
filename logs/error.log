@@ -1,226 +1,21 @@
-# Aegis Local Auth - Error Log
-# This file will contain error-level logs and security warnings 2025-06-28 23:39:37 [ERROR]: Failed to create users table - Error: SQLITE_NOTADB: file is not a database
-2025-06-28 23:46:14 [ERROR]: Failed to create users table - Error: SQLITE_NOTADB: file is not a database
-2025-06-29 00:12:57 [ERROR]: Failed to create users table - Error: SQLITE_NOTADB: file is not a database
-2025-06-29 00:39:12 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:117:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:117:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-06-29 00:39:12 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-06-29 00:56:44 [ERROR]: Failed to initialize modem settings - Error: Command timeout: AT
-2025-06-29 00:56:44 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
-2025-06-29 00:56:44 [ERROR]: OTP SMS sending failed - Error: GSM modem is not healthy
-2025-06-29 00:58:38 [ERROR]: Failed to initialize modem settings - Error: Command timeout: AT
-2025-06-29 00:58:38 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
-2025-06-29 00:58:38 [ERROR]: OTP SMS sending failed - Error: GSM modem is not healthy
-2025-06-29 00:59:19 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
-2025-06-29 01:06:45 [ERROR]: Failed to initialize modem settings - Error: Command timeout: AT
-2025-06-29 01:06:45 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
-2025-06-29 01:07:02 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
-2025-06-29 01:07:13 [ERROR]: GSM modem health check: FAILED - Command timeout: AT
-2025-06-29 23:40:17 [ERROR]: Failed to send OTP SMS to: +213****56416. Error: Command timeout: AT+CMGS="+213776256416"
-2025-06-29 23:40:17 [ERROR]: ❌ Failed to send SMS to +21*******416 - Error: Command timeout: AT+CMGS="+213776256416"
-2025-06-29 23:57:33 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-29 23:57:33 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-29 23:58:22 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
-2025-06-29 23:58:47 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
-2025-06-30 00:01:02 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 00:01:02 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 00:50:03 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 00:50:03 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 00:53:13 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-06-30 00:53:13 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-06-30 00:57:36 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 00:57:36 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 00:57:42 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
-2025-06-30 01:04:21 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 01:04:21 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 01:05:52 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
-2025-06-30 01:05:59 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
-2025-06-30 01:23:24 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 01:23:24 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 01:36:22 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-06-30 01:36:22 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-06-30 01:37:22 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 01:37:22 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 01:38:23 [ERROR]: Failed to initialize modem settings - Error: Command timeout: ATE0
-2025-06-30 01:38:23 [ERROR]: GSM modem health check: FAILED - Command timeout: ATE0
-2025-06-30 01:38:26 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-06-30 01:38:26 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-06-30 01:38:39 [ERROR]: GSM modem health check: FAILED - Modem not responding to AT commands
-2025-07-07 02:54:35 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 03:54:20 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 05:22:31 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 05:44:39 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 05:44:39 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-07 05:44:39 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-07-07 05:46:15 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 05:46:15 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:129:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-07 05:46:15 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-07-07 05:56:16 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:05:19 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:05:48 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\public\index.html'
-2025-07-07 09:06:09 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\public\index.html'
-2025-07-07 09:09:53 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:15:53 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:15:53 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:135:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:135:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-07 09:15:53 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-07-07 09:22:18 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:30:58 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:34:20 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:39:08 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 09:39:50 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-07 09:39:50 [ERROR]: [OTPEngine] ❌ Erreur lors de l'envoi SMS OTP vers +213******519: - Error: logger.warn is not a function
-2025-07-07 10:00:27 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 10:01:19 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-07 10:01:19 [ERROR]: [OTPEngine] ❌ Erreur lors de l'envoi SMS OTP vers +213******519: - Error: config.SMS_FALLBACK_PROVIDERS is not iterable
-2025-07-07 10:07:25 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-07 10:08:33 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-07 10:08:36 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-07 10:08:36 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-07 10:08:36 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 2805ms
-2025-07-07 10:10:45 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-07 10:10:48 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-07 10:10:48 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-07 10:10:48 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 2431ms
-2025-07-08 09:05:48 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-08 09:05:57 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:05:59 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:02 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:02 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:03 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:04 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:04 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:05 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:05 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:06:18 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:07:26 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:14:33 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-08 09:14:40 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-08 09:14:42 [ERROR]: Global error handler - Error: ENOENT: no such file or directory, stat 'D:\Boulot\Auto_Registry\Aegis Local Auth\app\web\dist\index.html'
-2025-07-09 00:57:01 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 01:22:12 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 01:25:23 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 01:30:24 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 01:44:42 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:20:28 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:20:55 [ERROR]: CORS blocked request from origin: http://localhost:5174
-2025-07-09 02:20:55 [ERROR]: Global error handler - Error: Not allowed by CORS
-2025-07-09 02:23:32 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:23:42 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:24:06 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-09 02:24:16 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-09 02:24:16 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-09 02:24:16 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******6519 après 10189ms
-2025-07-09 02:25:00 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-09 02:25:10 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-09 02:25:10 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-09 02:25:10 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 10129ms
-2025-07-09 02:29:36 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:31:11 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:31:19 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 02:31:53 [ERROR]: [SMS-API] Aucune réponse reçue de l'API. Vérifiez l'URL et la connexion Internet.
-2025-07-09 02:32:03 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-09 02:32:03 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-09 02:32:03 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 10218ms
-2025-07-09 23:53:08 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 23:55:12 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 23:55:13 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+2025-07-11 00:34:06 [ERROR]: uncaughtException: logger.warn is not a function
+TypeError: logger.warn is not a function
+    at D:\Boulot\Auto_Registry\Aegis Local Auth\app\services\sms-providers\adbProvider.js:183:28
+    at ChildProcess.exithandler (node:child_process:407:7)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+Stack: TypeError: logger.warn is not a function
+    at D:\Boulot\Auto_Registry\Aegis Local Auth\app\services\sms-providers\adbProvider.js:183:28
+    at ChildProcess.exithandler (node:child_process:407:7)
+    at ChildProcess.emit (node:events:518:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-07-11 00:58:58 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 00:59:47 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 01:08:17 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 01:14:17 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 01:14:17 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
 Error: listen EADDRINUSE: address already in use :::3000
     at Server.setupListenHandle [as _listen2] (node:net:1939:16)
     at listenInCluster (node:net:1996:12)
@@ -235,80 +30,13 @@ Stack: Error: listen EADDRINUSE: address already in use :::3000
     at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
     at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-09 23:55:13 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-07-09 23:58:32 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 23:58:46 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-09 23:58:46 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-09 23:58:46 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-07-09 23:59:29 [ERROR]: [SMS-API] Erreur de réponse de l'API: - Error: [object Object]
-2025-07-09 23:59:31 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-09 23:59:31 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-09 23:59:31 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 1799ms
-2025-07-10 00:05:02 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:05:03 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:05:21 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:05:33 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:05:49 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:05:57 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:10:23 [ERROR]: [SMS-API] Erreur de réponse de l'API: - Error: [object Object]
-2025-07-10 00:10:24 [ERROR]: [SMS-Gateway] Aucune réponse reçue de la passerelle. Vérifiez l'IP, le port et la connexion Wi-Fi.
-2025-07-10 00:10:24 [ERROR]: [SMS-Modem] Le port série n'est pas ouvert ou disponible.
-2025-07-10 00:10:24 [ERROR]: [OTPEngine] ❌ Échec de l'envoi SMS OTP vers +213******519 après 1862ms
-2025-07-10 00:19:25 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:19:33 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:33:09 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:33:11 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:33:21 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:33:29 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:33:36 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:33:57 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 00:34:11 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 01:06:06 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 01:57:29 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 01:57:29 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-10 01:57:29 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
-2025-07-10 01:58:29 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
-2025-07-10 01:58:29 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
-Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-Stack: Error: listen EADDRINUSE: address already in use :::3000
-    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
-    at listenInCluster (node:net:1996:12)
-    at Server.listen (node:net:2101:7)
-    at Function.listen (D:\Boulot\Auto_Registry\Aegis Local Auth\node_modules\express\lib\application.js:635:24)
-    at startServer (D:\Boulot\Auto_Registry\Aegis Local Auth\server.js:137:24)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-2025-07-10 01:58:29 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-11 01:14:17 [ERROR]: Uncaught Exception - Error: listen EADDRINUSE: address already in use :::3000
+2025-07-11 02:34:38 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 02:35:02 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 04:01:26 [ERROR]: [SMS-Modem] Erreur de port série: - Error: Opening COM5: File not found
+2025-07-11 04:01:32 [ERROR]: [SMS-ADB] Aucun appareil Android connecté
+2025-07-11 04:01:32 [ERROR]: [SMS-ADB] Impossible de détecter la version Android, utilisation par défaut - Error: Erreur d'exécution: Command failed: "D:\Boulot\Auto_Registry\Aegis Local Auth\bin\platform-tools\adb.exe"  shell getprop ro.build.version.release
+adb.exe: no devices/emulators found
+
+2025-07-11 04:01:33 [ERROR]: [SMS-ADB] Aucun appareil Android connecté
+2025-07-11 04:01:33 [ERROR]: [SMS-ADB] Aucun appareil Android connecté via ADB

@@ -497,7 +497,10 @@ For technical support, bug reports, or feature requests:
 - **README.md** : Guide principal
 - **QUICK_START.md** : Démarrage rapide en 5 minutes
 - **DOCUMENTATION_COMPLETE.md** : Documentation technique complète
+- **DOCUMENTATION_ADB.md** : Documentation système ADB SMS
 - **WINDOWS_SETUP.md** : Guide spécifique Windows
+- **TROUBLESHOOTING.md** : Guide de résolution des problèmes
+- **TROUBLESHOOTING_ADB.md** : Dépannage spécifique ADB
 - **API_REFERENCE.md** : Référence API complète
 - **DEPLOYMENT.md** : Guide de déploiement production
 - **SECURITY.md** : Guide de sécurité
